@@ -1,0 +1,27 @@
+body
+{
+  font-family: Georgia, Cambria, 'Times New Roman' , Times, serif;
+  font-size: 12pt;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  color: #000000;
+  text-decoration: none;
+}
+
+h2.title
+{
+  font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+code
+{
+  font-size: inherit;
+  font-family: 'Courier New' , Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+  color: #AA0000;
+}
