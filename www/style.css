@@ -1,7 +1,7 @@
 body
 {
-  font-family: Georgia, Cambria, 'Times New Roman' , Times, serif;
-  font-size: 12pt;
+  font-family: Cambria, Georgia, 'Times New Roman', Times, serif;
+  font-size: 11pt;
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
@@ -10,7 +10,7 @@ body
   text-decoration: none;
 }
 
-h2.title
+h1.title
 {
   font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
   font-size: x-large;
@@ -19,9 +19,25 @@ h2.title
 
 code
 {
-  font-size: inherit;
-  font-family: 'Courier New' , Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
   font-weight: bold;
   color: #AA0000;
+}
+
+h1.title code
+{
+  font-size: inherit;
+}
+
+ul.mainList
+{
+  list-style-type: square;
+}
+
+strong.listheader
+{
+  font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
 }

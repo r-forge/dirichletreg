@@ -22,19 +22,32 @@
 <table border="0" width="100%" cellspacing="0" cellpadding="0">
   <tr>
     <td>
+      <h1 class="title"><code>DirichletReg</code> &mdash; Dirichlet Regression in <code>R</code></h1>
+    </td>
+    <td>
       <a href="http://r-forge.r-project.org/">
         <img src="https://r-forge.r-project.org/themes/rforge/imagesrf/logo.png" border="0" alt="R-Forge Logo" />
       </a>
     </td>
-    <td>
-      <h2 class="title"><code>DirichletReg</code> &mdash; Dirichlet Regression in <code>R</code></h2>
-    </td>
   </tr>
 </table>
 
-<p> No content added. </p>
-
-<p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
+<ul class="mainList">
+  <li>
+    <strong class="listheader">Installation</strong>
+    <br />
+    copy &amp; paste this code into R:
+    <br />
+    <code>install.packages("DirichletReg", repos="http://r-forge.r-project.org")</code>
+  </li>
+  <li>
+    <strong class="listheader">Project Summary Page</strong>
+    <br />
+    <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/">
+      http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/
+    </a>
+  </li>
+</ul>
 
 </body>
 </html>
