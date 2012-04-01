@@ -1,42 +1,56 @@
-body
-{
-  font-family: Cambria, Georgia, 'Times New Roman', Times, serif;
-  font-size: 11pt;
+body{
+  font-family: Palatino, 'Palatino Linotype', Cambria, Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-variant: normal;
   text-transform: none;
+  line-height: 3ex;
   color: #000000;
   text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
-h1.title
-{
+a{
+  font-family: Consolas, 'Courier New', Courier, monospace;
+  color: #AA0000;
+}
+
+div#universe{
+  width: 1000px;
+  margin: 100px auto;
+  padding-bottom: 100px;
+  background-image: url("rforge_logo.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+div.title{
   font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
-  font-size: x-large;
+  font-size: 200%;
   font-weight: bold;
+  margin: auto;
 }
 
-code
-{
-  font-family: 'Courier New', Courier, monospace;
+code{
+  font-family: Consolas, 'Courier New', Courier, monospace;
+  font-size: inherit;
   text-decoration: none;
   font-weight: bold;
   color: #AA0000;
 }
 
-h1.title code
-{
-  font-size: inherit;
-}
-
-ul.mainList
-{
+ul.mainList{
   list-style-type: square;
 }
 
-strong.listheader
-{
+ul.mainList li{
+  margin-top:2ex;
+}
+
+strong.listheader{
   font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
   font-size: large;
   font-weight: bold;
