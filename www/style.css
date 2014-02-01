@@ -14,7 +14,7 @@ body{
 }
 
 a{
-  font-family: Consolas, 'Courier New', Courier, monospace;
+  font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
   color: #AA0000;
 }
 
@@ -38,7 +38,6 @@ code{
   font-family: Consolas, 'Courier New', Courier, monospace;
   font-size: inherit;
   text-decoration: none;
-  font-weight: bold;
   color: #AA0000;
 }
 
@@ -48,6 +47,14 @@ ul.mainList{
 
 ul.mainList li{
   margin-top:2ex;
+}
+
+ol.bibList{
+  list-style-type: dot;
+}
+
+ol.bibList li{
+  margin-top:1ex;
 }
 
 strong.listheader{
